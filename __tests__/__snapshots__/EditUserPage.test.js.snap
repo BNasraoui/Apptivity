@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inital screen snapshot testing 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#2c549e",
+      "flex": 1,
+      "flexWrap": "wrap",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        },
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "white",
+        },
+      ]
+    }
+    testID="StudyIDView"
+  >
+    <BaseText>
+      ID:
+    </BaseText>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Enter ID Here"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "width": "75%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        },
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "white",
+        },
+      ]
+    }
+    testID="DataGraphView"
+  >
+    <BaseText>
+      Data Graph:
+    </BaseText>
+    <Switch
+      onValueChange={[Function]}
+      value={false}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "white",
+      }
+    }
+  >
+    <BaseText
+      style={
+        Object {
+          "paddingTop": 10,
+        }
+      }
+    >
+      Monitor Position:
+    </BaseText>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+      testID="WristView"
+    >
+      <BaseText
+        style={
+          Object {
+            "fontSize": 15,
+          }
+        }
+      >
+        Wrist:
+      </BaseText>
+      <Switch
+        onValueChange={[Function]}
+        value={false}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+      testID="HipView"
+    >
+      <BaseText
+        style={
+          Object {
+            "fontSize": 15,
+          }
+        }
+      >
+        Hip:
+      </BaseText>
+      <Switch
+        onValueChange={[Function]}
+        value={false}
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        },
+        Object {
+          "borderBottomWidth": 1,
+          "borderColor": "white",
+        },
+      ]
+    }
+    testID="DiaryEpochView"
+  >
+    <BaseText>
+      Diary Epoch:
+    </BaseText>
+    <View
+      style={
+        Object {
+          "backgroundColor": "white",
+          "width": "35%",
+        }
+      }
+    >
+      <Picker
+        mode="dialog"
+        onValueChange={[Function]}
+        selectedValue=""
+      >
+        <PickerItem
+          label="5 mins"
+          value="5"
+        />
+        <PickerItem
+          label="15 mins"
+          value="15"
+        />
+        <PickerItem
+          label="30 mins"
+          value="30"
+        />
+      </Picker>
+    </View>
+  </View>
+  <BaseText
+    style={
+      Object {
+        "paddingTop": 10,
+      }
+    }
+  >
+    Personalised Activity:
+  </BaseText>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }
+    testID="PersonalisedActivitiesContainer"
+  />
+  <TouchableHighlight
+    activeOpacity={0.85}
+    delayPressOut={100}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "height": 40,
+        "justifyContent": "center",
+        "width": 40,
+      }
+    }
+    underlayColor="black"
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+       + 
+    </Text>
+  </TouchableHighlight>
+  <DialogInput
+    closeDialog={[Function]}
+    hintInput="Enter Activity Here"
+    isDialogVisible={false}
+    message="Enter Personalised Activity"
+    submitInput={[Function]}
+    title="Adding New Personalised Acitvity"
+  />
+  <TouchableHighlight
+    activeOpacity={0.85}
+    delayPressOut={100}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "alignSelf": "flex-end",
+        "backgroundColor": "white",
+        "borderRadius": 30,
+        "borderWidth": 1,
+        "height": 60,
+        "justifyContent": "center",
+        "marginRight": 20,
+        "width": 60,
+      }
+    }
+    underlayColor="black"
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../assets/tick.png",
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "flex": 1,
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+  </TouchableHighlight>
+</View>
+`;
